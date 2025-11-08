@@ -1,0 +1,452 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #0f0a1f , 0%, #1a1a2e 100%);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/*coreia*/
+img {
+margin-left: -25px;
+
+}
+
+/* Ajuste da logo */
+.coreia {
+  display: flex;
+  align-items: center;
+}
+
+.coreia img {
+  width: 150px;   /* tamanho proporcional */
+  height: auto;   /* mantém a proporção */
+  display: block;
+   margin-top: -10px; 
+   margin-left: 15px;
+}
+.coreia {
+  position: absolute;
+}
+
+/* cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between; /* separa logo, menu e search */
+  align-items: center;
+  padding: 1px 20px 20px;
+  background:linear-gradient( #0f0227,#232677) 
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  margin-right: -115px;
+  margin-top: 35px;
+}
+
+/* Barra de pesquisa */
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+/* cor dos icones*/
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  gap: 1230px;
+  font-size: 16px;
+  transition: 0.3s;
+ 
+}
+
+/* cor dos icones muda com o mouse*/
+nav ul li a:hover {
+    color: #3854a9;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.search-box button {
+    background-color: #0944e5;
+    border: none;
+    color: #ededed;
+    padding: 9px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.rank3{
+  display: flex;
+margin-right: -25px;
+gap: 145px;
+
+}
+
+.top10 h1 {
+  position: absolute;
+font-size: 220px;
+font-weight: 200;
+left: 310px;
+
+}
+
+main {
+    padding: 20px 40px;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 20px;   /* menos altura interna */
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;  /* alinha no topo */
+  margin-bottom: 8px;  /* menos espaço embaixo */
+}
+
+.footer-logo h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.footer-logo p {
+  font-size: 12px;
+  color: #bbb;
+  margin: 2px 0 5px 0;  /* espaço bem pequeno */
+}
+
+.social-icons {
+  margin-top: 5px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 6px;
+  font-size: 15px;   /* ícones menores */
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #4da6ff;
+  transform: scale(1.1);
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;   /* menos espaço entre colunas */
+}
+
+.footer-links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 4px;  /* bem mais próximo */
+  font-size: 12px;     /* links menores */
+  
+}
+
+.footer-links a:hover {
+  color: #4da6ff;
+}
+
+.parceiros {
+  text-align: center;
+  margin-top: 5px;  /* quase grudado */
+  font-size: 12px;
+}
+
+.parceiros a {
+  color: #4da6ff;
+  text-decoration: none;
+  margin: 0 4px;  /* menos espaço entre parceiros */
+  font-size: 12px;
+}
+
+.parceiros a:hover {
+  text-decoration: underline;
+  color: #033c71;
+}
+
+.direitos {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 5px;  /* reduzido */
+  color: #888;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-left: 4px solid #0898c8;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+    .banner {
+  background-image: linear-gradient(to right, rgba(5, 29, 138, 0.548) 40%, transparent), url(./imgs/pretendente-surpresa-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 0.5%;
+
+  width: 100vw;   /* ocupa toda a largura da tela */
+  margin-left: calc(-40px); /* anula o padding lateral do main */
+  margin-top: calc(-20px);
+}
+
+
+.banner-description {
+    max-width: 600px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #bdbdbd;
+}
+
+.banner-content {
+    max-width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 2px;
+}
+
+
+.watch-button {
+    background-color: #101322;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.6s;
+    text-decoration: none;
+}
+
+.watch-button:hover {
+  background-color: #13144f;
+  transform: scale(1.05);
+}
+
+.ler-mais {
+    color: #a1b0b3;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.coreia {
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+}
+
+
+/* Estilo geral do rank3 */
+main {
+  background: linear-gradient(180deg, #0f0a1f , 0%, #1a1a2e 100%);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.top10 h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Container de cards */
+  .cards {
+  display: flex;
+  flex-wrap: wrap;        /* ✅ permite quebrar linha */
+  gap: 45px;              /* espaço entre cards */
+  justify-content: center;/* centraliza o conjunto */
+  padding-left: -25px;
+}
+
+.barrinha {
+  display: flex;
+  flex-direction: row;       /* força os itens na horizontal */
+  gap: 20px;
+  overflow-x: auto;          /* ativa scroll horizontal */
+  overflow-y: hidden;        /* impede scroll vertical */
+  white-space: nowrap;       /* impede quebra de linha */
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+}
+
+/* barra de rolagem horizontal visível */
+.barrinha::-webkit-scrollbar {
+  height: 10px;
+}
+.barrinha::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+.barrinha::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* cada item da barrinha */
+.barrinha-item {
+  flex: 0 0 200px;           /* largura fixa */
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;     /* evita quebra de linha */
+  scroll-snap-align: start;
+  transition: transform 0.3s;
+}
+
+.barrinha-item:hover {
+  transform: scale(1.05);
+}
+
+.barrinha-item img {
+  width: 400px;
+  height: 220px;
+  object-fit: cover;
+  padding: 0 48 0 0px;
+  
+}
+
+.barrinha-item h3 {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.barrinha-item p {
+  color: #b3b3b3;
+  margin: 0 10px 10px;
+  font-size: 0.9rem;
+}
+
+ #num1:hover ,#num2:hover , #num3:hover {
+transform:scale(1.05);
+overflow: hidden;
+  transition: transform 0.3s;
+}
+#num1 {
+  position: absolute;
+  z-index: 400000000;
+  top: 565px;
+  font-size:265px;
+  left: 128px;
+}
+
+#num2{
+  position: absolute;
+  left: 535px;
+  font-size: 265px;
+  top: 565px;
+z-index: 0;
+}
+
+#num3{
+  position: absolute;
+  left: 935px;
+  font-size: 265px;
+  top: 565px;
+  z-index: 0;
+}
+
+.rank {
+  position: absolute;
+  z-index: 400000;
+  top: 200px;
+  font-size:265px;
+  left: -100px;
+}
+
+.cards span {
+position: absolute;
+
+}
+
+/* Cada card */
+.card {
+    flex: 1 1 200px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;           
+  transition: transform 0.3s;
+  padding: 0px 25px;
+}
+.card:hover {
+  transform: scale(1.05);
+  
+}
+
+.card img {
+  width: 305px;
+  min-height: 202px;
+  max-height: 202px;
+}
+
+/* Número grande */
+.rank {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  opacity: 0.9;
+}
+
+/* Títulos e textos */
+.card h3 {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.card p {
+  color: #b3b3b3;
+  margin: 0 10px 10px;
+  font-size: 0.9rem;
+}
+
+
+
+.card-link {
+  text-decoration: none;   /* tira sublinhado */
+  color: inherit;          /* usa a cor normal do texto */
+  display: inline-block;   /* para manter tamanho de bloco */
+}
+
+.card-link .card {
+  transition: transform 0.3s;
+}
+
+.card-link .card:hover {
+  transform: scale(1.03);  /* efeito hover opcional */
+}
