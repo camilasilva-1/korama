@@ -193,7 +193,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, rgba(2, 8, 20, 0.8) 40%, transparent 100%), url('/imgs/pretendente-surpresa-2.jpeg') center/cover no-repeat;
+  background: linear-gradient(to right, rgba(2, 8, 20, 0.8) 40%, transparent 100%), url('imgs/pretendente-surpresa-2.jpeg') center/cover no-repeat;
   padding: 60px 80px;
   min-height: 500px;
 }
@@ -394,3 +394,4 @@ h2 {
   background-color: #efced0bc;
   transform: scale(1.05);
 }
+
